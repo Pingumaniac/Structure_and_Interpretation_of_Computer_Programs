@@ -17,6 +17,6 @@ The return value of this will be 0 with an interpreter that uses normal-order ev
 as the x parameter is defined as 0 and if x parameter is defined as 0 then the test function returns 0.
 
 Note:
-applicative-order evaluation: evaluate the arugments & then apply
+applicative-order evaluation: evaluate the arguments & then apply
 normal-order evaluation: fully expand and then reduce
 |#
