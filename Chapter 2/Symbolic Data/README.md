@@ -1,3 +1,3 @@
 # Notes
 
-Made notes of things that I have found interesting.
+Descriptions about Huffman Encoding Trees are intersting.
