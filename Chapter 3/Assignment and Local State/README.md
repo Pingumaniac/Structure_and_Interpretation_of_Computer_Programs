@@ -52,10 +52,11 @@ can change, a variable can no longer be simply a name. Now a
 variable somehow refers to a place where a value can be stored, and the
 value stored at this place can change. (231)"
 
-"A language that supports the concept that “equals can be substituted
+Referential transparency = "A language that supports the concept that “equals can be substituted
 for equals” in an expression without changing the value of the expression
-is said to be referentially transparent. Referential transparency is
-violated when we include set! in our computer language. This makes
+is said to be referentially transparent. (232)"
+
+"Referential transparency is violated when we include set! in our computer language. This makes
 it tricky to determine when we can simplify expressions by substituting
 equivalent expressions. Consequently, reasoning about programs that
 use assignment becomes drastically more difficult. (232-233)"
