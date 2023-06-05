@@ -68,10 +68,10 @@ written in imperative style are susceptible to bugs that cannot occur in
 functional programs. (234)"
 
 "In general, programming with assignment forces us to carefully consider the relative orders
-of the assignments to make sure that each statement is using the correct version of the variables that have been changed. is issue simply does
-not arise in functional programs.
+of the assignments to make sure that each statement is using the correct version of the variables that have been changed. This issue simply does
+not arise in functional programs. (235)"
 
-The complexity of imperative programs becomes even worse if we
+"The complexity of imperative programs becomes even worse if we
 consider applications in which several processes execute concurrently.
 We will return to this in Section 3.4. First, however, we will address the
 issue of providing a computational model for expressions that involve
