@@ -53,3 +53,15 @@ a procedure to arguments, create a new environment containing a
 frame that binds the parameters to the values of the arguments. The enclosing
 environment of this frame is the environment specified by the procedure. 
 Now, within this new environment, evaluate the procedure body. (239)"
+
+* "A procedure object is applied to a set of arguments by constructing
+a frame, binding the formal parameters of the procedure to the
+arguments of the call, and then evaluating the body of the procedure
+in the context of the new environment constructed. The new
+frame has as its enclosing environment the environment part of
+the procedure object being applied. (240)"
+
+* "A procedure is created by evaluating a λ-expression relative to a
+given environment. The resulting procedure object is a pair consisting
+of the text of the λ-expression and a pointer to the environment
+in which the procedure was created. (240)"
