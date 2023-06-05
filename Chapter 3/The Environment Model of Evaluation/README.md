@@ -45,3 +45,11 @@ are created in one way only: by evaluating a λ-expression. This produces
 a procedure whose code is obtained from the text of the λ-expression
 and whose environment is the environment in which the λ-expression
 was evaluated to produce the procedure. (238)"
+
+### How procedures are applied?
+
+"The environment model specifies: To apply
+a procedure to arguments, create a new environment containing a
+frame that binds the parameters to the values of the arguments. The enclosing
+environment of this frame is the environment specified by the procedure. 
+Now, within this new environment, evaluate the procedure body. (239)"
