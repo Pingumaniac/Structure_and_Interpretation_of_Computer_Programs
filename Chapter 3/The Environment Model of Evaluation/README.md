@@ -14,7 +14,7 @@ that contains a binding for that variable. If no frame in the
 sequence specifies a binding for the variable, then the variable is said to
 be unbound in the environment. (237)"
 
-"e environment is crucial to the evaluation process, because it determines
+"The environment is crucial to the evaluation process, because it determines
 the context in which an expression should be evaluated. Indeed,
 one could say that expressions in a programming language do not, in themselves, have any meaning. 
 Rather, an expression acquires a meaning only with respect to some environment in which it is evaluated. (237-238)"
