@@ -62,3 +62,18 @@ equivalent expressions. Consequently, reasoning about programs that
 use assignment becomes drastically more difficult. (233)"
 
 Imperative programming = "programming that makes extensive use of assignment (234)"
+
+"In addition to raising complications about computational models, programs
+written in imperative style are susceptible to bugs that cannot occur in
+functional programs. (234)"
+
+"In general, programming with assignment forces us to carefully consider the relative orders
+of the assignments to make sure that each statement is using the correct version of the variables that have been changed. is issue simply does
+not arise in functional programs.
+
+The complexity of imperative programs becomes even worse if we
+consider applications in which several processes execute concurrently.
+We will return to this in Section 3.4. First, however, we will address the
+issue of providing a computational model for expressions that involve
+assignment, and explore the uses of objects with local state in designing
+simulations. (235)" 
