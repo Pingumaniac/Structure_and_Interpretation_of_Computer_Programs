@@ -19,7 +19,6 @@ the context in which an expression should be evaluated. Indeed,
 one could say that expressions in a programming language do not, in themselves, have any meaning. 
 Rather, an expression acquires a meaning only with respect to some environment in which it is evaluated. (237-238)"
 
-
 "Even the interpretation of an expression as straightforward as (+ 1 1) 
 depends on an understanding that one is operating in a context in
 which + is the symbol for addition. Thus, in our model of evaluation we
@@ -30,3 +29,19 @@ enclosing environment) that includes values for the symbols associated
 with the primitive procedures. For example, the idea that + is the symbol
 for addition is captured by saying that the symbol + is bound in the
 global environment to the primitive addition procedure. (238)"
+
+## Section 3.2.1 The Rules for Evaluation
+
+"To evaluate a combination:
+1. Evaluate the subexpressions of the combination.
+2. Apply the value of the operator subexpression to the values of the
+operand subexpressions.
+
+Th environment model of evaluation replaces the substitution model in
+specifying what it means to apply a compound procedure to arguments.
+In the environment model of evaluation, a procedure is always a pair
+consisting of some code and a pointer to an environment. Procedures
+are created in one way only: by evaluating a λ-expression. This produces
+a procedure whose code is obtained from the text of the λ-expression
+and whose environment is the environment in which the λ-expression
+was evaluated to produce the procedure. (238)"
