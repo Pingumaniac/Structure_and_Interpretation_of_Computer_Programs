@@ -65,3 +65,16 @@ the procedure object being applied. (240)"
 given environment. The resulting procedure object is a pair consisting
 of the text of the λ-expression and a pointer to the environment
 in which the procedure was created. (240)"
+
+## Section 3.2.3 Internal Definitions
+
+* "The names of the local procedures do not interfere with names
+external to the enclosing procedure, because the local procedure
+names will be bound in the frame that the procedure creates when
+it is run, rather than being bound in the global environment. (250)"
+
+• "The local procedures can access the arguments of the enclosing
+procedure, simply by using parameter names as free variables.
+is is because the body of the local procedure is evaluated in an
+environment that is subordinate to the evaluation environment
+for the enclosing procedure. (250)"
