@@ -27,12 +27,20 @@ views a signal-processing system.
 Both the object-based approach and the stream-processing approach
 raise significant linguistic issues in programming. With objects, we must
 be concerned with how a computational object can change and yet maintain
-its identity. is will force us to abandon our old substitution model
+its identity. This will force us to abandon our old substitution model
 of computation (Section 1.1.5) in favor of a more mechanistic but less
 theoretically tractable environment model of computation. The difficulties
 of dealing with objects, change, and identity are a fundamental consequence of the need to grapple with time in our computational models.
 These difficulties become even greater when we allow the possibility of
-concurrent execution of programs. e stream approach can be most
+concurrent execution of programs. The stream approach can be most
 fully exploited when we decouple simulated time in our model from the
 order of the events that take place in the computer during evaluation.
 We will accomplish this using a technique known as delayed evaluation. (217-218)"
+
+"From the point of view of one part of a complex process, the other
+parts appear to change with time. ey have hidden time-varying local
+state. If we wish to write computer programs whose structure reflects
+this decomposition, we make computational objects (such as bank accounts
+and random-number generators) whose behavior changes with
+time. We model state with local state variables, and we model the changes
+of state with assignments to those variables. (228)"
