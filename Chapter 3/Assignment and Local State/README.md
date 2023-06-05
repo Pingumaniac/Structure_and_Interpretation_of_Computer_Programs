@@ -38,9 +38,16 @@ order of the events that take place in the computer during evaluation.
 We will accomplish this using a technique known as delayed evaluation. (217-218)"
 
 "From the point of view of one part of a complex process, the other
-parts appear to change with time. ey have hidden time-varying local
+parts appear to change with time. They have hidden time-varying local
 state. If we wish to write computer programs whose structure reflects
 this decomposition, we make computational objects (such as bank accounts
 and random-number generators) whose behavior changes with
 time. We model state with local state variables, and we model the changes
 of state with assignments to those variables. (228)"
+
+"substitution is based ultimately on the notion
+that the symbols in our language are essentially names for values.
+But as soon as we introduce set! and the idea that the value of a variable
+can change, a variable can no longer be simply a name. Now a
+variable somehow refers to a place where a value can be stored, and the
+value stored at this place can change. (231)"
