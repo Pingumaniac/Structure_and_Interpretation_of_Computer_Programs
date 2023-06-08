@@ -9,3 +9,4 @@ Made notes of things that I have found interesting.
 * "can regard almost any program as the evaluator for some language. (360)"
 * "Seen from this perspective, the technology for coping with large-scale computer systems merges with the technology for building new computer languages, 
 and computer science itself becomes no more (and no less) than the discipline of constructing appropriate descriptive languages. (361)"
+* metacircular = "An evaluator that is written in the same language (362)"
