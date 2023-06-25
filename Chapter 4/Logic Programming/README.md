@@ -11,5 +11,5 @@
 * "There will be an “eval” part that classifies expressions according to type and an “apply” part that implements the language’s abstraction mechanism (procedures in the case of Lisp, and rules in the case of logic programming). (441)"
 * "Also, a central role is played in the implementation by a frame data structure, which determines the correspondence between symbols and their associated values. One additional interesting aspect of our query-language implementation is that we make substantial use of streams (441)"
 
-
+### Deductive Information Retrival
 * 
