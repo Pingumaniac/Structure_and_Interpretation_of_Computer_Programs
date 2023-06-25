@@ -12,4 +12,7 @@
 * "Also, a central role is played in the implementation by a frame data structure, which determines the correspondence between symbols and their associated values. One additional interesting aspect of our query-language implementation is that we make substantial use of streams (441)"
 
 ### Deductive Information Retrival
-* 
+* "The system finds all assignments to variables in the query pattern that satisfy the pattern—that is, all sets of values for the variables such that if the pattern variables are instantiated with (replaced by) the values, the result is in the data base. (445)"
+* "The system responds to the query by listing all instantiations of the query pattern with the variable assignments that satisfy it. (445)"
+* "Note that if the pattern has no variables, the query reduces to a determination of whether that pattern is in the data base. (445)"
+* "If so, the empty assignment, which assigns no values to variables, satisfies that pattern for that data base. (445)"
