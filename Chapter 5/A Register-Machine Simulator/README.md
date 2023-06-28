@@ -8,13 +8,13 @@ constructs and returns a model of the machine with the given registers, operatio
 
 * (set-register-contents! ⟨machine-model⟩ ⟨register-name⟩ ⟨value⟩)
 
-"stores a value in a simulated register in the given machine.
+stores a value in a simulated register in the given machine.
 
-*(get-register-contents ⟨machine-model⟩ ⟨register-name⟩)
+* (get-register-contents ⟨machine-model⟩ ⟨register-name⟩)
 
 returns the contents of a simulated register in the given machine.
 
-*(start ⟨machine-model⟩)
+* (start ⟨machine-model⟩)
 
 simulates the execution of the given machine, starting from the beginning of the controller sequence and stopping when
 it reaches the end of the sequence.
