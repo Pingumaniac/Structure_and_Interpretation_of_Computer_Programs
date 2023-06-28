@@ -12,3 +12,16 @@
 * Lisp systems thus provide an automatic storage allocation facility to support the illusion of an infinite memory.
 * When a data object is no longer needed, the memory allocated to it is automatically recycled and used to construct new data objects.
 * Lisp -> garbage collection
+
+## Memory as Vectors
+
+* Vectors used as a data structure to represent computer memory
+
+### Primitive Procedures for manipulating Vectors
+* (vector-ref ⟨vector⟩ ⟨n⟩)
+
+returns the nth element of the vector.
+
+* (vector-set! ⟨vector⟩ ⟨n⟩ ⟨value⟩)
+
+sets the nth element of the vector to the designated value.
